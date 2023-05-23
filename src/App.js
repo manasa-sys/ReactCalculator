@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -20,6 +20,20 @@ function App() {
       </header>
     </div>
   );
+}
+
+export default App;
+*/
+
+import React from "react"
+import Calculate from "./calculator";
+
+function App(){
+return(
+    <div className="App">
+      <Calculate></Calculate>
+    </div>
+);
 }
 
 export default App;
